@@ -9,7 +9,6 @@
     <description>花生DotNetCore基类库，Base on DotNetCore2.0.3</description>
     <dependencies>
       <group targetFramework=".NETCoreApp2.0">
-        <dependency id="Microsoft.Extensions.Configuration" version="2.0.0" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Extensions.Configuration.Json" version="2.0.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>

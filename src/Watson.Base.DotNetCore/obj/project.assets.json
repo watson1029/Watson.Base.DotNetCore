@@ -4019,7 +4019,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.Extensions.Configuration >= 2.0.0",
       "Microsoft.Extensions.Configuration.Json >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -4068,10 +4067,6 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[2.0.0, )"
