@@ -1,9 +1,8 @@
 D:\GitHub\Watson.Base.DotNetCore\src\Watson.Base.DotNetCore\bin\Debug\netcoreapp2.0\Watson.Base.DotNetCore.deps.json
 D:\GitHub\Watson.Base.DotNetCore\src\Watson.Base.DotNetCore\bin\Debug\netcoreapp2.0\Watson.Base.DotNetCore.dll
-D:\GitHub\Watson.Base.DotNetCore\src\Watson.Base.DotNetCore\obj\Debug\netcoreapp2.0\Watson.Base.DotNetCore.csprojResolveAssemblyReference.cache
+D:\GitHub\Watson.Base.DotNetCore\src\Watson.Base.DotNetCore\bin\Debug\netcoreapp2.0\Watson.Base.DotNetCore.pdb
 D:\GitHub\Watson.Base.DotNetCore\src\Watson.Base.DotNetCore\obj\Debug\netcoreapp2.0\Watson.Base.DotNetCore.csproj.CoreCompileInputs.cache
 D:\GitHub\Watson.Base.DotNetCore\src\Watson.Base.DotNetCore\obj\Debug\netcoreapp2.0\Watson.Base.DotNetCore.AssemblyInfoInputs.cache
 D:\GitHub\Watson.Base.DotNetCore\src\Watson.Base.DotNetCore\obj\Debug\netcoreapp2.0\Watson.Base.DotNetCore.AssemblyInfo.cs
-D:\GitHub\Watson.Base.DotNetCore\src\Watson.Base.DotNetCore\bin\Debug\netcoreapp2.0\Watson.Base.DotNetCore.pdb
 D:\GitHub\Watson.Base.DotNetCore\src\Watson.Base.DotNetCore\obj\Debug\netcoreapp2.0\Watson.Base.DotNetCore.dll
 D:\GitHub\Watson.Base.DotNetCore\src\Watson.Base.DotNetCore\obj\Debug\netcoreapp2.0\Watson.Base.DotNetCore.pdb

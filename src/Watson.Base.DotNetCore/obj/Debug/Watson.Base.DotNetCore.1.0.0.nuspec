@@ -3,12 +3,14 @@
   <metadata>
     <id>Watson.Base.DotNetCore</id>
     <version>1.0.0</version>
-    <authors>Watson.Base.DotNetCore</authors>
-    <owners>Watson.Base.DotNetCore</owners>
+    <authors>Watson</authors>
+    <owners>Watson</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>花生DotNetCore基类库，Base on DotNetCore2.0.3</description>
     <dependencies>
       <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="2.0.1" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Extensions.Configuration.Json" version="2.0.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>
