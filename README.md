@@ -7,10 +7,10 @@ Base on DotNetCore2.0.3
 ### 安装
 Install-Package Watson.Base.DotNetCore -Version 1.0.3
 ### 基类库功能列表
-* ConfigurationHelper
-* ProtoBufHelper
-* LogHelper
-* EncryptHelper
+* [ConfigurationHelper](src/Watson.Base.DotNetCore/ConfigurationHelper.md)
+* [ProtoBufHelper](src/Watson.Base.DotNetCore/ProtoBufHelper.md)
+* [LogHelper](src/Watson.Base.DotNetCore/LogHelper.md)
+* [EncryptHelper](src/Watson.Base.DotNetCore/EncryptHelper.md)
   * Des
   * TripleDes
   * Aes
@@ -18,5 +18,3 @@ Install-Package Watson.Base.DotNetCore -Version 1.0.3
   * Rsa
   * Md5
   * Sha1
-### 使用说明
-[INSTRUCTIONS.md](src/Watson.Base.DotNetCore/INSTRUCTIONS.md)
