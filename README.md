@@ -11,10 +11,10 @@ Install-Package Watson.Base.DotNetCore -Version 1.0.3
 * [ProtoBufHelper](src/Watson.Base.DotNetCore/ProtoBufHelper.md)
 * [LogHelper](src/Watson.Base.DotNetCore/LogHelper.md)
 * [EncryptHelper](src/Watson.Base.DotNetCore/EncryptHelper.md)
-  * Des
-  * TripleDes
-  * Aes
-  * Rc2
-  * Rsa
-  * Md5
-  * Sha1
+  * DES
+  * TripleDES
+  * AES
+  * RC2
+  * RSA
+  * MD5
+  * SHA1
