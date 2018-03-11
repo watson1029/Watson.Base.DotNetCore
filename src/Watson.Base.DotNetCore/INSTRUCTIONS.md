@@ -1,6 +1,6 @@
 # ConfigurationHelper
 ## 引用
-        Install-Package Watson.Base.DotNetCore -Version
+        Install-Package Watson.Base.DotNetCore
 ```CSharp
     using Watson.Base.DotNetCore
 ```
@@ -21,7 +21,7 @@
 ---
 # ProtoBufHelper
 ## 引用
-        Install-Package Watson.Base.DotNetCore -Version
+        Install-Package Watson.Base.DotNetCore
 ```CSharp
     using Watson.Base.DotNetCore
 ```
