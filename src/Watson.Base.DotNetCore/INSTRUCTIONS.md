@@ -113,6 +113,31 @@
     using Watson.Base.DotNetCore
 ```
 ## Des
+### 实例化
+```CSharp
+    //KEY和IV随机生成
+    EncryptHelper.Des des = new EncryptHelper.Des();
+    //KEY自定义，IV随机生成
+    EncryptHelper.Des des = new EncryptHelper.Des(_sKey);
+    //KEY和IV自定义
+    EncryptHelper.Des des = new EncryptHelper.Des(_sKey, sIV);
+```
+### 获取Key和IV
+```CSharp
+    EncryptHelper.Des des = new EncryptHelper.Des();
+    string _key = des.getKey;
+    string _iv = des.getIV;
+```
+### 加密与解密
+```CSharp
+    EncryptHelper.Des des = new EncryptHelper.Des();
+    //加密
+    string _cipher = des.Encrypt(plain);
+    //解密
+    string _plain = des.Decrypt(_cipher);
+    
+    Assert.AreEqual(plain, _plain);
+```
 ## TripleDes
 ## Aes
 ## Rc2
