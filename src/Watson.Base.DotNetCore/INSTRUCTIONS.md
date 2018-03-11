@@ -1,7 +1,9 @@
 # ConfigurationHelper
 ## 引用
-    Install-Package Watson.Base.DotNetCore -Version
+        Install-Package Watson.Base.DotNetCore -Version
+```CSharp
     using Watson.Base.DotNetCore
+```
 ## 调用appsetting.json
 ### 数据库连接字符串
 ```CSharp
@@ -19,8 +21,10 @@
 ---
 # ProtoBufHelper
 ## 引用
-    Install-Package Watson.Base.DotNetCore -Version
+        Install-Package Watson.Base.DotNetCore -Version
+```CSharp
     using Watson.Base.DotNetCore
+```
 ## 修改Startup.cs
 ```CSharp
     services.AddMvc(options => { options.AddProtobufSupport(); });
