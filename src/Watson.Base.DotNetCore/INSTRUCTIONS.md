@@ -71,6 +71,18 @@
   [Zaabee.AspNetCoreProtobuf](https://github.com/Mutuduxf/Zaabee.AspNetCoreProtobuf)
 ---
 # LogHelper
+## 引用
+        Install-Package Watson.Base.DotNetCore
+```CSharp
+    using Watson.Base.DotNetCore
+```
+## 添加appsetting.json节点
+```json
+    "WatsonBaseSettings" : {
+        "SysLog" : "SqlConnectionString",
+        "LogFile" : "LogFilePath"
+    }
+```
 ---
 # EncryptHelper
 ---
