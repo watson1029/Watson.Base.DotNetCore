@@ -73,23 +73,14 @@ EncryptHelper
     string _key = aes.getKey;
     string _iv = aes.getIV;
 ```
-### string加密与解密
+### string或byte[]加密与解密
 ```CSharp
+    //string或byte[]加解密
     EncryptHelper.AES aes = new EncryptHelper.AES();
     //加密
     string _cipher = aes.Encrypt(plain);
     //解密
     string _plain = aes.Decrypt(_cipher);
-    
-    Assert.AreEqual(plain, _plain);
-```
-### byte[]加密与解密
-```CSharp
-    EncryptHelper.AES aes = new EncryptHelper.AES();
-    //加密
-    byte[] _cipher = aes.Encrypt(plain);
-    //解密
-    byte[] _plain = aes.Decrypt(_cipher);
     
     Assert.AreEqual(plain, _plain);
 ```
@@ -133,8 +124,43 @@ EncryptHelper
 ### 生成公钥和私钥
 ```CSharp
     EncryptHelper.RSA rsa = new EncryptHelper.RSA();
-    rsa.RSAKey(out keys, out publicKeys);
+    rsa.RSAKey(out privateKeys, out publicKeys);
 ```
-
+### 加密与解密
+```CSharp
+    //string或byte[]加密与解密
+    EncryptHelper.RSA rsa = new EncryptHelper.RSA();
+    rsa.RSAKey(out privateKeys, out publicKeys);
+    //加密
+    string _cipher = rsa.Encrypt(publicKeys, plain);
+    //解密
+    string _plain = rsa.Encrypt(privateKeys, _cipher);
+    
+    Assert.AreEqual(plain, _plain);
+```
+### 签名与验签
+```CSharp
+    //string或byte[]签名与验签
+    EncryptHelper.RSA rsa = new EncryptHelper.RSA();
+    rsa.RSAKey(out privateKeys, out publicKeys);
+    if(rsa.GetHash(plain, ref strHash))
+    {
+        rsa.SignatureFormatter(privateKeys, strHash, _cipher);
+        if(rsa.SignatureDeformatter(publicKeys, strHash, _cipher))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+```
 ## MD5
+```CSharp
+    string _cipher = EncryptHelper.MD5(plain);
+```
 ## SHA1
+```CSharp
+    string _cipher = EncryptHelper.SHA1(plain);
+```
