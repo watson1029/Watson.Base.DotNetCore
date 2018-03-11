@@ -1,5 +1,6 @@
 # ConfigurationHelper
 ## 引用
+    Install-Package Watson.Base.DotNetCore -Version
     using Watson.Base.DotNetCore
 ## 调用appsetting.json
 ### 数据库连接字符串
@@ -18,6 +19,7 @@
 ---
 # ProtoBufHelper
 ## 引用
+    Install-Package Watson.Base.DotNetCore -Version
     using Watson.Base.DotNetCore
 ## 修改Startup.cs
 ```CSharp
