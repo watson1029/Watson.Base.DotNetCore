@@ -7,11 +7,6 @@ base on protobuf-net
     using Watson.Base.DotNetCore
 ```
 ## 修改Startup.cs
-添加引用
-```CSharp
-    using Watson.Base.DotNetCore.ProtoBufHelper;
-```
-修改services.addMvc
 ```CSharp
     services.AddMvc(options => { options.AddProtobufSupport(); });
 ```
