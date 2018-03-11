@@ -8,5 +8,14 @@ Base on DotNetCore2.0.3
 Install-Package Watson.Base.DotNetCore -Version 1.0.0
 ### 基类库功能列表
 * ConfigurationHelper
+* EncryptHelper
+  * Des
+  * TripleDes
+  * Aes
+  * Rc2
+  * Rsa
+  * Md5
+  * Sha1
+* ProtoBufHelper
 ### 使用说明
 [INSTRUCTIONS.md](INSTRUCTIONS.md)
