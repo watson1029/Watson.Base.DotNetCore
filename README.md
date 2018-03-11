@@ -19,4 +19,4 @@ Install-Package Watson.Base.DotNetCore -Version 1.0.3
   * Md5
   * Sha1
 ### 使用说明
-[INSTRUCTIONS.md](INSTRUCTIONS.md)
+[INSTRUCTIONS.md](src/Watson.Base.DotNetCore/INSTRUCTIONS.md)
