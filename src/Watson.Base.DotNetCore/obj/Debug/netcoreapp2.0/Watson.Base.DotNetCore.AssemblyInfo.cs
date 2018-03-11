@@ -15,11 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("花生DotNetCore基类库，Base on DotNetCore2.0.3\r\nhttps://github.com/watson1029/Watson.Bas" +
     "e.DotNetCore")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.3.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Watson.Base.DotNetCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Watson.Base.DotNetCore")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.3.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 
