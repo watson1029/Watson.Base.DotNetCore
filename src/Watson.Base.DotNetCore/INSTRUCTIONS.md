@@ -57,13 +57,15 @@
     
     //HttpGet
     var responseForGet = await _client.GetAsync(url);
-    var resultForGet = ProtoBuf.Serializer.Deserialize<DataClass>( responseForGet.Result.Content.ReadAsStreamAsync().Result);
+    var resultForGet = ProtoBuf.Serializer.Deserialize<DataClass>
+                        (responseForGet.Result.Content.ReadAsStreamAsync().Result);
     
     //HttpPost
     ProtoBuf.Serializer.Serialize(stream, _dataClass);
     var httpContent = new StreamContent(stream);
     var responseForPost = await _client.PostAsync(url, httpContent);
-    var resultForPost = ProtoBuf.Serializer.Deserialize<DataClass>(responseForPost.Result.Content.ReadAsStreamAsync().Result);
+    var resultForPost = ProtoBuf.Serializer.Deserialize<DataClass>
+                        (responseForPost.Result.Content.ReadAsStreamAsync().Result);
 ```
 ## 参考资料
   [Zaabee.AspNetCoreProtobuf](https://github.com/Mutuduxf/Zaabee.AspNetCoreProtobuf)
