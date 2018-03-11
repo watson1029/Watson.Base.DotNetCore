@@ -145,7 +145,7 @@ EncryptHelper
     rsa.RSAKey(out privateKeys, out publicKeys);
     if(rsa.GetHash(plain, ref strHash))
     {
-        rsa.SignatureFormatter(privateKeys, strHash, _cipher);
+        rsa.SignatureFormatter(privateKeys, strHash, ref _cipher);
         if(rsa.SignatureDeformatter(publicKeys, strHash, _cipher))
         {
             return true;
